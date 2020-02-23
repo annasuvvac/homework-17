@@ -2,7 +2,7 @@
 Unit 17 homework
 
 See the deployed app on Heroku
----
+https://asfitness-tracker.herokuapp.com/
 # Project Description
 The Fitness Tracker is an app which allows the user to add exercises to a database, and also view a page which displays summary data on the last seven workouts.
 
