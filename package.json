@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ana199816/homework-17"
+    "url": "git+https://github.com/RyanEllingson/Fitness-Tracker.git"
   },
-  "author": "Ana Suvac",
+  "author": "Ryan Ellingson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ana199816/homework-17/issues"
+    "url": "https://github.com/RyanEllingson/Fitness-Tracker/issues"
   },
-  "homepage": "https://github.com/Ana199816/homework-17/blob/master/README.md",
+  "homepage": "https://github.com/RyanEllingson/Fitness-Tracker#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mongojs": "^3.1.0",
