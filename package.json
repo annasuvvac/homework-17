@@ -1,25 +1,19 @@
 {
-  "name": "fitness-tracker",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "Unit 17 homework",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node seeders/seed.js && node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RyanEllingson/Fitness-Tracker.git"
-  },
-  "author": "Ryan Ellingson",
+  "author": "Ana Suvac",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RyanEllingson/Fitness-Tracker/issues"
-  },
-  "homepage": "https://github.com/RyanEllingson/Fitness-Tracker#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongojs": "^3.1.0",
-    "mongoose": "^5.8.9",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
     "morgan": "^1.9.1"
   }
 }

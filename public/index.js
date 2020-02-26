@@ -21,7 +21,7 @@ init();
 
 async function init() {
   if (location.pathname.includes("/exercise") && location.search.split("=")[1] === undefined) {
-    console.log("excercise")
+    console.log("excersise")
     const newWorkout = await API.createWorkout();
     const workout = await API.getLastWorkout();
     if (workout) {
@@ -45,7 +45,6 @@ async function init() {
 
 function handleWorkoutTypeChange(event) {
   workoutType = event.target.value;
-  console.log(workoutType);
 
   if (workoutType === "cardio") {
     cardioForm.classList.remove("d-none");
